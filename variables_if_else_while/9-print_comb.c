@@ -8,7 +8,7 @@ int main(void)
 {
 	int cmb;
 
-	while(cmb < 10)
+	while (cmb < 10)
 	{
 		putchar(cmb + '0');
 		if (cmb < 9)
