@@ -5,7 +5,7 @@
  * Return: Always 0 (Success)
  */
 
-void print_alphhabert(void);
+void print_alphabet(void);
 
 int main(void)
 {
@@ -18,7 +18,7 @@ void print_alphhabert(void)
 {
 	char al;
 
-	for (al = 'a';la <= 'z';al++)
+	for (al = 'a';al <= 'z';al++)
 	{
 	_putchar(al);
 	}
