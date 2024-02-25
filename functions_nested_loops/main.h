@@ -1,8 +1,9 @@
 #include <stdlib.h>
 /**
  * _putchar - prints out charactors
- * @_putchar: its mine 
+ * @c: stores variable
  *
  *prints out char variables
  */
+
 int _putchar(char c);
