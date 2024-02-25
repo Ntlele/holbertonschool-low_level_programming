@@ -1,26 +1,18 @@
 #include "main.h"
+
 /**
- * main - Entry point
+ * print_alphabet - prints characters from a to z
  *
- * Return: Always 0 (Success)
+ * Return: Always void.
  */
-
-void print_alphabet(void);
-
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet(void);
-	_putchar('\n');
-	return (0);
-}
+	char c;
 
-void print_alphhabert(void)
-{
-	char al;
-
-	for (al = 'a';al <= 'z';al++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-	_putchar(al);
+		_putchar(c);
 	}
+	_putchar('\n');
 }
- 
+
