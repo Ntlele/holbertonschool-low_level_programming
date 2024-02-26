@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * more__numbers - prints whole numbers from 0 to 14 ten times
+ * more_numbers - prints whole numbers from 0 to 14 ten times
  * _putchar - prints out the numbers
  *
  * Return: void
