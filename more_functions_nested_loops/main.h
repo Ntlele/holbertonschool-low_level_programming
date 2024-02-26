@@ -33,4 +33,11 @@ void print_numbers(void);
  * _putcar - prints out values stored in variables
  */
 int _putchar(char c);
+
+/**
+ * print_most_numbers - prints whole numbers except 2 and 4
+ * Returns: void
+ *
+ */
+void print_most_numbers(void);
 #endif
