@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_numbers - prints whole numbers except for 2 and 4
+ * print_most_numbers - prints whole numbers except for 2 and 4
  * _putchar - prints out the numbers
  *
  * Return: void
