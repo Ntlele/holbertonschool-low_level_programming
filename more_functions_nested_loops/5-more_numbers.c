@@ -19,7 +19,7 @@ void print_numbers(void)
 				p = i / 10;
 				_putchar(p + 0);
 			}
-			_putcar(i % 10 + 0);
+			_putchar(i % 10 + 0);
 		}
 		_putchar('\n');
 	}
