@@ -7,7 +7,7 @@
  * Return: product of two integers
  */
 
-int  _isdigit(int a, int b)
+int  mul(int a, int b)
 {
 	return (a * b);
 }
