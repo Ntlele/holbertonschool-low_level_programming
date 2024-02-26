@@ -29,10 +29,4 @@ void print_times_table(int n);
 
 void natural(void);
 
-void fibonacci(void);
-
-void fibonacci_sum(void);
-
-void fibonacci_print_98(void);
-
 #endif
