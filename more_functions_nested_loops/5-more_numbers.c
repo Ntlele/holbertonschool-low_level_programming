@@ -17,9 +17,9 @@ void print_numbers(void)
 			if (i > 9)
 			{
 				p = i / 10;
-				_putchar(p + 0);
+				_putchar(p + '0');
 			}
-			_putchar(i % 10 + 0);
+			_putchar(i % 10 + '0');
 		}
 		_putchar('\n');
 	}
