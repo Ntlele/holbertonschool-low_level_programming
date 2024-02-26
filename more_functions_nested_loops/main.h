@@ -21,4 +21,16 @@ int _isdigit(int c);
  * @b: second integer
  */
 int mul(int a, int b);
+
+/**
+ * print_numbers - prints whole numbers from 0 to 9
+ * Returns: void
+ *
+ */
+void print_numbers(void);
+
+/**
+ * _putcar - prints out values stored in variables
+ */
+int _putchar(char c);
 #endif
