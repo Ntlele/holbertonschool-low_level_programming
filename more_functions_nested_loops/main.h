@@ -42,7 +42,7 @@ int _putchar(char c);
 void print_most_numbers(void);
 
 /**
- * more_numbers - prints out numbers from 0 to 9 ten times
+ * more_numbers - prints out numbers from 0 to 14 ten times
  * Returns: void
  *
  */
