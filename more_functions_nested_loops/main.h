@@ -62,5 +62,5 @@ void print_line(int n);
  * Return: void
  *
  */
-void print_diagonal(int n)
+void print_diagonal(int n);
 #endif
