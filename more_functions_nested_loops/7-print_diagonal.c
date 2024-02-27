@@ -10,7 +10,9 @@ void print_diagonal(int n)
 	
 	int slsh, sp;
 
-	if (n > 0)
+	if (n <= 0)
+		_putchar('\n');
+	else
 	{
 		for (sp = 0; sp < n; sp++)
 		{
@@ -20,9 +22,7 @@ void print_diagonal(int n)
 			}
 			_putchar('\\');
 			_putchar('\n');
+		
 		}
-
 	}
-	if (n <= 0)
-		_putchar('\n');
 }
