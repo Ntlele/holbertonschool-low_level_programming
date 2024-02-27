@@ -55,4 +55,12 @@ void more_numbers(void);
  *
  */
 void print_line(int n);
+
+/**
+ * print_diagonal - draws diagonal
+ * @n: number of times to print
+ * Return: void
+ *
+ */
+void print_diagonal(int n)
 #endif
