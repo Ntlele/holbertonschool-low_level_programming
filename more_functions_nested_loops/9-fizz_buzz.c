@@ -1,24 +1,28 @@
 #include <stdio.h>
 
 /**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
+
 int main()
 {
-	int num, r;
+	int num;
 	
 	for (num = 0; num <= 100; num++)
 	{
 		if(num % 3 == 0 && num % 5 == 0)
 		{
-			printf("FuzzBizz");
+			printf("FizzBuzz");
 		}
 		else if (num % 3 == 0)
 		{
-			printf("Fuzz");
+			printf("Fizz");
 		}
 		else if (num % 5 == 0)
 		{
-			printf("Bizz");
+			printf("Buzz");
 		}
 		else
 		{
