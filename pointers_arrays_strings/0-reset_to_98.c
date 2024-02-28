@@ -6,11 +6,8 @@
  *
  */
 
-void reset_pointer_to_98(int *n);
 
-void reset_pointer_to_98(int *n)
+void reset_to_98(int *n)
 {
-	int num;
-	*n = &num;
 	*n = 98;
 }
