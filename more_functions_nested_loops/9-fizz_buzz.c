@@ -29,10 +29,9 @@ int main()
 			printf("%d", num);
 		}
 
-		if (num != 100)
-			printf(" ");
-			
-		
+		if (num == 100)
+			continue;
+		printf(" ");	
 	}
 	return (0);
 }
