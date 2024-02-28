@@ -31,7 +31,7 @@ int main()
 
 		if (num != 100)
 			printf(" ");
-		i++;
+			
 		
 	}
 	return (0);
