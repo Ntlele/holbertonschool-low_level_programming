@@ -5,11 +5,10 @@
  * Returns: void
  *
  */
+
 void reset_pointer_to_98(int *n)
 {
 	int num;
-	
 	*n = &num;
-
 	*n = 98;
 }
