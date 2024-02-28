@@ -5,5 +5,5 @@
  * @*n: stores the value of a pointer
  *
  */
-void reset_to_98(int *n;
+void reset_to_98(int *n);
 #endif
