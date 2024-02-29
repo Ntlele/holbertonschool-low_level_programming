@@ -11,8 +11,10 @@ void rev_string(char *s)
 	int c;
 
 	for (c = 0; s[c] != '\0'; c++)
+	{
 		_putchar(s[c]);
 		continue;
+	}
 	_putchar('\n');
 
 	for (c--; c >= 0; c--)
