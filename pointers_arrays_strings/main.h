@@ -28,4 +28,10 @@ int _string(char *s);
  *
  */
 void _puts(char *str);
+
+/**
+ * _putchar - prints out a variable
+ *
+ */
+int _putchar(char c);
 #endif
