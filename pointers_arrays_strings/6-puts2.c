@@ -14,8 +14,8 @@ void _puts2(char *str)
 	for (c = 0; str[c] != '\0'; c++)
 		if (c % 2 == 0)
 		{
-			l = str[c];
-			_putchar(l);
+			p = str[c];
+			_putchar(p);
 		}
 	_putchar('\n');
 }
