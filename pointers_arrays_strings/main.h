@@ -48,4 +48,11 @@ void print_rev(char *s);
  *
  */
 void rev_string(char *s);
+
+/**
+ * puts2 - prints char of string
+ * @str: stores the char array string
+ *
+ */
+void put2(char *str);
 #endif
