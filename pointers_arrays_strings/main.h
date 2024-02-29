@@ -34,4 +34,11 @@ void _puts(char *str);
  *
  */
 int _putchar(char c);
+
+/**
+ * print_rev - prints a string in reverse
+ * @s: stores the string value pointer
+ *
+ */
+void print_rev(char *s);
 #endif
