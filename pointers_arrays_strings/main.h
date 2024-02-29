@@ -41,4 +41,11 @@ int _putchar(char c);
  *
  */
 void print_rev(char *s);
+
+/**
+ * rev_string - prints a string normaly and in reverse
+ * @s: stores a string pointer
+ *
+ */
+void rev_string(char *s);
 #endif
