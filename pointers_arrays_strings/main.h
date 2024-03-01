@@ -78,4 +78,12 @@ void print_array(int *a, int n);
  *
  */
 char *_strcpy(char *dest, char *src);
+
+/**
+ * _atoi - function that converts a string value to an int type value
+ * @s: the string to be converted
+ * Returns: int type value
+ *
+ */
+int _atoi(char *s);
 #endif
