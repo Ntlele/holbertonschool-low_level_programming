@@ -70,4 +70,12 @@ void puts_half(char *str);
  *
  */
 void print_array(int *a, int n);
+
+/**
+ * _strcpy - this is a function that returns a copied string
+ * @dest: this variable stores copied string
+ * @src: this variable copies the string
+ *
+ */
+char *_strcpy(char *dest, char *src);
 #endif
