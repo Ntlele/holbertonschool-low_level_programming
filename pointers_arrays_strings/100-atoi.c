@@ -21,5 +21,5 @@ int _atoi(char *s)
 	for (; s[index] != '\0'; ++index)
 		result = (((result * 10) + s[index]) - '0');
 
-	return (int_sign * result)
+	return (int_sign * result);
 }
