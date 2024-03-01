@@ -17,7 +17,7 @@ void puts_half(char *str)
 	{
 		for ((q = p / 2); str[q] != 0; q++)
 		{
-			l = str[q];
+			r = str[q];
 			_putchar(r);
 		}
 	}
@@ -25,7 +25,7 @@ void puts_half(char *str)
         {
                 for ((q = (p - 1) / 2); str[q] != 0; q++)
                 {
-                        l = str[q];
+                        r = str[q];
                         _putchar(r);
                 }
         }
