@@ -55,4 +55,11 @@ void rev_string(char *s);
  *
  */
 void put2(char *str);
+
+/*
+ * puts_half - prints half of the string
+ * @str: poiter of the char type string
+ *
+ */
+void puts_half(char *str);
 #endif
