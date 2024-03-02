@@ -20,7 +20,7 @@ void swap_int(int *a, int *b);
  * @s: stores the value of string
  * Returns: the length of the string
  */
-int _string(char *s);
+int _strlen(char *s);
 
 /**
  * _puts - prints a string
