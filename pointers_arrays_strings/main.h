@@ -86,4 +86,12 @@ char *_strcpy(char *dest, char *src);
  *
  */
 int _atoi(char *s);
+
+/**
+ * _strcat - this script links two strings together into one string
+ * @dest: this is the first string
+ * @src: this is the second string
+ *
+ */
+char *_strcat(char *dest, char *src);
 #endif
