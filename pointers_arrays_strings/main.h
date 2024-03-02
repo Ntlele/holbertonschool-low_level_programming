@@ -105,5 +105,13 @@ char *_strcat(char *dest, char *src);
  */
 char *_strncat(char *dest, char *srn, int n);
 
-
+/**
+ * _strncpy - copies the string  value of the src 
+ * @dest: destination of the result
+ * @src: source of the result
+ *
+ * Returns: the copied string stored in the dest variable
+ *
+ */
+char *_strncpy(char *dest, char *src, int n);
 #endif
