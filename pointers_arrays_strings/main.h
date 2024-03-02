@@ -99,9 +99,11 @@ char *_strcat(char *dest, char *src);
  * _strncat -  a function that concatenates two strings
  * @dest: first string
  * @src: second string
+ * @n: the value of bytes that a string amounts to
  * Returns: returns dest value
  * Description: src does not need to be null-terminated if it contains n
  */
 char *_strncat(char *dest, char *srn, int n);
+
 
 #endif

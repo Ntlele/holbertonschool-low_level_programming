@@ -5,6 +5,7 @@
  * _strncat -  a function that concatenates two strings
  * @dest: first string
  * @src: second string
+ * @n: value of bytes in a string to be concatenated
  * Returns: returns dest value
  * Description: src does not need to be null-terminated if it contains n
  */
