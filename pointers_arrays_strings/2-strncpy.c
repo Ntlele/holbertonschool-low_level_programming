@@ -7,19 +7,18 @@
  *
  * Return: the copied string stored in the dest variable
  */
+
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i = 0;
+	char *mdlm = dest;
 
-	while (src[i] != '\0' && i < n)
+	for (; n != 0 && *src != '\0'; n--, src++)
 	{
-		dest[i] = src[i];
-		i++;
+		*mdlm = *src;
+		mdlm++;
 	}
-	while (i < n)
-	{
-		dest[i] = '\n';
-		i++;
-	}
+	for (; n != 0 && *mdlm != '\0'; n--, mdlm++)
+		*mdlm = '\0';
 	return (dest);
+}
 }
