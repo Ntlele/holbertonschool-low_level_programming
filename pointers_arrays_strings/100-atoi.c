@@ -6,20 +6,26 @@
  * Returns: an integer value
  *
  */
-int _atoi(char *s)
+int _atoi(char *s) 
 {
 	int result = 0;
 	int int_sign = 1;
-	int index = 0;
 
-	if (s[0] == '-')
+	do
 	{
-		int_sign = -1;
-		index++;
-	}
+		if (*s == '-')
+		{
+			int_sign *= -1;
+		}
+		else if (*s >= '0' && *s <= '9')
+		{
+			index = (index * 10) + (*s - '0');
+		}
+		else if (index > 0)
+			break;
 
-	for (; s[index] != '\0'; ++index)
-		result = (((result * 10) + s[index]) - '0');
+	} while (*s++);
 
-	return (int_sign * result);
+	return (index * int_sign);
+
 }
