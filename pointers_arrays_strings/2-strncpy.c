@@ -21,4 +21,4 @@ char *_strncpy(char *dest, char *src, int n)
 		*mdlm = '\0';
 	return (dest);
 }
-}
+
