@@ -91,7 +91,7 @@ int _atoi(char *s);
  * _strcat - this script links two strings together into one string
  * @dest: this is the first string
  * @src: this is the second string
- *
+ * Returns: the concatenated strings
  */
 char *_strcat(char *dest, char *src);
 #endif

@@ -1,20 +1,25 @@
 #include "main.h"
 
 /**
- *_strcat - this script concatenates two strings
- *@dest: first string
- *@src: second string
+ * _strcat - this script concatenates two strings
+ * @dest: first string
+ * @src: second string
+ * Returns: returns dest value
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int clip_b = 0, i = 0;
+	int p, i;
 
-	while (dest[i++])
-		clip_b++;
+	while (dest[i] != '\0')
+		i++;
 
-	for (i = 0; src[i]; i++)
-		dest[clip_b++] = src[i++];
-
+	while (src[p] != '\0')
+	{
+		dest[i] = src[p];
+		i++;
+		p++;
+	}
+	dest[i] != '\0'
 	return (dest);
 }
