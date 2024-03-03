@@ -141,4 +141,13 @@ void reverse_array(int *a, int n);
  * Return: n
  */
 char *string_toupper(char *n);
+
+/**
+ * cap_string - capitalizes all words of a string
+ * @n: input value
+ *
+ *
+ * Return: string
+ */
+char *cap_string(char *n);
 #endif
