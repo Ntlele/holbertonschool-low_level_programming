@@ -158,4 +158,12 @@ char *cap_string(char *n);
  * Return: n value
  */
 char *leet(char *n);
+
+/**
+ * rot13 - encodes a string in rot13
+ * @s: string to be encoded
+ *
+ * Return: the resulting string
+ */
+char *rot13(char *);
 #endif
