@@ -140,5 +140,5 @@ void reverse_array(int *a, int n);
  *
  * Return: n
  */
-char *string_toupper(char *n)
+char *string_toupper(char *n);
 #endif
