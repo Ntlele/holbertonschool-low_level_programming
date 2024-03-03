@@ -124,4 +124,13 @@ char *_strncpy(char *dest, char *src, int n);
  *
  */
 int _strcmp(char *s1, char *s2);
+
+/**
+ * reverse_array - reverse array of integers
+ * @a: array
+ * @n: number of elements of array
+ *
+ * Return: void
+ */
+void reverse_array(int *a, int n);
 #endif
