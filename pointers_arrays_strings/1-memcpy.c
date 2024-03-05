@@ -4,6 +4,8 @@
  * _memcpy - copies memory area src to dest in n bytes
  * @dest: paste locaion or destination
  * @src: memory area to by copied
+ * @n: bytes
+ * Return: place where memory is copied
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
