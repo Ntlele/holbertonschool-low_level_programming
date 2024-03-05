@@ -179,5 +179,5 @@ char *rot13(char *);
  * @n: number of bytes
  * Return: a pointer to the memory area
  */
-char *_memset(char *s, char b, int n);
+char *_memset(char *s, char b, unsigned int n);
 #endif
