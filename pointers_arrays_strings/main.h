@@ -180,4 +180,13 @@ char *rot13(char *);
  * Return: a pointer to the memory area
  */
 char *_memset(char *s, char b, unsigned int n);
+
+/**
+ * _memcpy - copies memory area src to dest in n bytes
+ * @dest: paste locaion or destination
+ * @src: memory area to by copied
+ * Return: memory copied to dest
+ */
+char *_memcpy(char *dest, char *src, unsigned int i);
+
 #endif
