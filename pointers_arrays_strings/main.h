@@ -205,5 +205,5 @@ char *_strchr(char *s, char c);
  * @accept: number of bytes
  * Return: number of bytes in initial segment of s
  */
-unsigned int _strspn(char *s, hcar *accept);
+unsigned int _strspn(char *s, char *accept);
 #endif
