@@ -190,4 +190,12 @@ char *_memset(char *s, char b, unsigned int n);
  */
 char *_memcpy(char *dest, char *src, unsigned int i);
 
+
+/**
+ * _strchr - funtion that locates a string
+ * @s: the main string
+ * @c: derived charactor
+ * Return: a specific charactor or Null if charactor not found
+ */
+char *_strchr(char *s, char c);
 #endif
