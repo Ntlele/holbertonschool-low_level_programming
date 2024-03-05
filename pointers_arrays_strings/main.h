@@ -198,4 +198,12 @@ char *_memcpy(char *dest, char *src, unsigned int i);
  * Return: a specific charactor or Null if charactor not found
  */
 char *_strchr(char *s, char c);
+
+/**
+ * _strspn - function gets length of prefix substring
+ * @s: initial segment location
+ * @accept: number of bytes
+ * Return: number of bytes in initial segment of s
+ */
+unsigned int _strspn(char *s, hcar *accept);
 #endif
