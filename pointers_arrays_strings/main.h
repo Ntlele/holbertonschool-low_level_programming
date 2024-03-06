@@ -208,7 +208,7 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 
 /**
- * strpbrk - searchesa string for any of a set of bytes
+ * _strpbrk - searches a string for any of a set of bytes
  * @s: first string
  * @accept: second string
  * Return: pointer to the byte in s that matches one of the bytes in accept
