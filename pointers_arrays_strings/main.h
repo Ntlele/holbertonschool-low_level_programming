@@ -231,4 +231,12 @@ char *_strstr(char *haystack, char *needle);
  *
  */
 void print_chessboard(char (*a)[8]);
+
+/**
+ * print_diagsums - prints sum of diagonals in square matrix
+ * @a: array of integers
+ * @size: determines that the square matrix
+ */
+
+void print_diagsums(int *a, int size);
 #endif
