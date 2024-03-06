@@ -222,5 +222,5 @@ char *_strpbrk(char *s, char *accept);
  * @needle: subscript derived from the string
  * Return: pointer to thew beginning of the subscript or NULL
  */
-char *strstr(char *haystack, char *needle);
+char *_strstr(char *haystack, char *needle);
 #endif

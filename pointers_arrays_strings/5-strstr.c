@@ -7,7 +7,7 @@
  * Return: pointer to thew beginning of the subscript or NULL
  */
 
-char *strstr(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 	int i;
 
