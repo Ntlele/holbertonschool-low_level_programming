@@ -28,24 +28,3 @@ void print_diagsums(int *a, int size)
 
 	printf("%d, %d\n", sum1, sum2);
 }
-
-int main(void)
-{
-	int c3[3][3] = {
-        	{2, 2, 3},
-        	{2, 3, 2},
-        	{4, 2, 2},
-    	};
-    	int c5[5][5] = {
-        	{2, 1, 5, 4, 2},
-        	{1, 1, 2, 2, 1},
-        	{4, 3, 2, 1, 4},
-        	{4, 2, 3, 4, 2},
-        	{2, 1, 5, 6, 5},
-    	};
-
-    	print_diagsums((int *)c3, 3);
-    	print_diagsums((int *)c5, 5);
-
-    	return (0);
-}
