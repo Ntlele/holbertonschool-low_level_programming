@@ -6,7 +6,7 @@
  * @a: array of integers
  * @size: determines that the square matrix
  * main: executeds the function
- * /
+ */
 
 void print_diagsums(int *a, int size)
 {
