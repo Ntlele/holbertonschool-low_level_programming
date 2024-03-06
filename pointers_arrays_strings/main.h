@@ -206,4 +206,13 @@ char *_strchr(char *s, char c);
  * Return: number of bytes in initial segment of s
  */
 unsigned int _strspn(char *s, char *accept);
+
+/**
+ * strpbrk - searchesa string for any of a set of bytes
+ * @s: first string
+ * @accept: second string
+ * Return: pointer to the byte in s that matches one of the bytes in accept
+ *
+ */
+char *_strpbrk(char *s, char *accept);
 #endif
