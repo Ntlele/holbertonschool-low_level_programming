@@ -215,4 +215,12 @@ unsigned int _strspn(char *s, char *accept);
  *
  */
 char *_strpbrk(char *s, char *accept);
+
+/**
+ * _strstr - function that locates a subscript
+ * @haystack: string that contains the subscript
+ * @needle: subscript derived from the string
+ * Return: pointer to thew beginning of the subscript or NULL
+ */
+char *strstr(char *haystack, char *needle);
 #endif
