@@ -223,4 +223,12 @@ char *_strpbrk(char *s, char *accept);
  * Return: pointer to thew beginning of the subscript or NULL
  */
 char *_strstr(char *haystack, char *needle);
+
+/**
+ * print_chessboard - prints out a chess board
+ * @a: array representing the chessboard
+ * Return: void
+ *
+ */
+void print_chessboard(char (*a)[8]);
 #endif
