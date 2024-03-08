@@ -67,4 +67,20 @@ int find_root(int n, int i);
  * Return: the square root of n.
  */
 int _sqrt_recursion(int n);
+
+/**
+ * find_multipliers - look for multipliers of n.
+ * @n: base number.
+ * @i: iterator number.
+ * Return: 1 if n is prime, 0 otherwise.
+ */
+int find_multipliers(int n, int i);
+
+/**
+ * is_prime_number - check if n is prime
+ * @n: base number.
+ *
+ * Return: 1 if n is prime, 0 otherwise.
+ */
+int is_prime_number(int n);
 #endif
