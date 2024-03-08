@@ -51,4 +51,20 @@ int factorial(int n);
  * Return: power number.
  */
 int _pow_recursion(int x, int y);
+
+/**
+ * find_root - calculates i**i to check with n.
+ * @n: base number.
+ * @i: iterator number.
+ * Return: i.
+ */
+int find_root(int n, int i);
+
+/**
+ * _sqrt_recursion - calculates the natural square root of n.
+ * @n: base number.
+ *
+ * Return: the square root of n.
+ */
+int _sqrt_recursion(int n);
 #endif
