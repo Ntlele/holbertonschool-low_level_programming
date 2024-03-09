@@ -7,10 +7,12 @@
  * Return: always 0
  *
  */
-
-int main(int argc)
+int main(int argc, char* argv[])
 {
-	int sum;
+	int sum, i;
+
+	for (i = 0; i < argc; i++)
+		argv[i];
 
 	sum = argc - 1;
 	printf("%d\n", sum);
