@@ -7,12 +7,11 @@
  * Return: always 0
  *
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-	(void) argv;
-	int sum;
-
-	sum = argc - 1;
-	printf("%d\n", sum);
+	if (argc >= 0 && **argv)
+	{
+		printf("%d\n", argc - 1);
+	}
 	return (0);
 }
