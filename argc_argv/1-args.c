@@ -10,10 +10,7 @@
 int main(int argc, char* argv[])
 {
 	(void) argv;
-	int sum, i;
-
-	for (i = 0; i < argc; i++)
-		argv[i];
+	int sum;
 
 	sum = argc - 1;
 	printf("%d\n", sum);
