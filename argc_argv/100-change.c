@@ -11,7 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int coins = 0, cents = atoi(argv[1]), denominations[] = {25, 10, 5, 2, 1};
+	int i, coins = 0, cents = atoi(argv[1]), denominations[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
 	{
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 		return 0;
 	}
 
-	for (int i = 0; i < 5; i++)
+	for (i = 0; i < 5; i++)
 	{
 		while (cents >= denominations[i]) 
 		{
