@@ -4,23 +4,26 @@
 /**
  * create_array - function that creates an array
  * @size: size of the array
- * @c:
+ * @c: The specific char to intialize the array with.
  *
- * Return: NULL if size is zero, else, pointer to the array
+ * Return: If size == 0 or the function fails - NULL.
+ *         Otherwise - a pointer to the array.
  */
-
 char *create_array(unsigned int size, char c)
 {
-	int i;
+	char *array;
+	unsigned int index;
 
-	while (i < size)
-	{
-		char *pntr = (char *)malloc(i * sizeof(char));
+	if (size == 0)
+		return (NULL);
 
-		if (size == 0)
-			return ('NULL');
-		else
-			return (pntr);
+	array = malloc(sizeof(char) * size);
 
-	}
+	if (array == NULL)
+		return (NULL);
+
+	for (index = 0; index < size; index++)
+		array[index] = c;
+
+	return (array);
 }
