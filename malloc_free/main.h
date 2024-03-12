@@ -36,7 +36,7 @@ int _strlen(char *s);
  * @n: value of bytes in a string
  * Return: dest value
  */
-char _strncat(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src, int n);
 
 /**
  * str_concat - allocates space for string value

@@ -1,6 +1,7 @@
 #include "main.h"
 #include <string.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 
 /**
@@ -71,16 +72,16 @@ char *str_concat(char *s1, char *s2)
 	sizef = _strlen(s1);
 	sizes = _strlen(s2);
 
-	ptr = malloc(((sizef + sizes) + 1) * sizeof(char));
+	pntr = malloc(((sizef + sizes) + 1) * sizeof(char));
 
-	if (ptr == NULL)
+	if (pntr == NULL)
 	{
 		return (NULL);
 	}
-	_strncat(ptr, s1, sizef);
+	_strncat(pntr, s1, sizef);
 
-	_strncat(ptr, s2, sizes);
+	_strncat(pntr, s2, sizes);
 
-	ptr += '\0';
-	return (ptr);
+	pntr += '\0';
+	return (pntr);
 }
