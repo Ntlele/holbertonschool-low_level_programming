@@ -40,7 +40,7 @@ char *_strncat(char *dest, char *src, int n);
 
 /**
  * str_concat - allocates space for string value
- * @s1: pointer to destination of strin\
+ * @s1: pointer to destination of string
  * @s2: pointer to source of string
  * Return: pointer to copy of string
  */
