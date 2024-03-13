@@ -51,6 +51,7 @@ char *str_concat(char *s1, char *s2);
  * @width: the columns of the array
  * @height: the rows of the array
  * Returns: pointer to a 2d array
+ * Description: returns a pointer to a 2 dimensional array
  */
 
 int **alloc_grid(int width, int height);
