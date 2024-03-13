@@ -9,8 +9,9 @@
  * Returns: pointer to a 2d array
  */
 
-int **alloc_grid(int width, int heigh)
+int **alloc_grid(int width, int height)
 {
+	int i, j;
 
 	int **arr = (int**)malloc(height * sizeof(int*));
 
@@ -24,12 +25,12 @@ int **alloc_grid(int width, int heigh)
 		return (NULL);
 	}
 
-	for (int i = 0; i < height; i++)
+	for (i = 0; i < height; i++)
 	{
 		arr[i] = (int*)malloc(width * sizeof(int));
 		if (arr[i] == NULL)
 		{
-			for (int j = 0; j < i; j++)
+			for (j = 0; j < i; j++)
 				free(arr[j]);
 		}
 		free(arr);

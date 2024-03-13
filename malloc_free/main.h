@@ -53,5 +53,5 @@ char *str_concat(char *s1, char *s2);
  * Returns: pointer to a 2d array
  */
 
-int **alloc_grid(int width, int heigh);
+int **alloc_grid(int width, int height);
 #endif
