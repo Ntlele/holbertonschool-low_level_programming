@@ -6,7 +6,7 @@
  * return: pointer to the allocated memory
  */
 
-void *malloc_checked(unsighned int b)
+void *malloc_checked(unsigned int b)
 {
        unsigned int *arr;
 
