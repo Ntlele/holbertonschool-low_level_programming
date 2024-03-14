@@ -4,10 +4,10 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - function that allocates memory
- * @b: size of memory
- * return: pointer to the allocated memory
- */
+ * malloc_checked - function allocates memory
+ * @b: parameter for value
+ * Return: value to return
+*/
 
 void *malloc_checked(unsigned int b)
 {
