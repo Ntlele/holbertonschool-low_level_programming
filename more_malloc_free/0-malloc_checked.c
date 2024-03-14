@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stddef.h>
 
 /**
  * malloc_checked - function that allocates memory
