@@ -15,9 +15,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *ptr;
 	unsigned int i, j, len, sum;
 
-	for (i = 0; s[i] != '\0' && len < n; ++i)
+	for (i = 0; s1[i] != '\0' && len < n; ++i)
 		len++;
-	for (j = 0; s[j] != '\0' && len < n; ++j)
+	for (j = 0; s2[j] != '\0' && len < n; ++j)
 		len++;
 
 	ptr = malloc(sizeof(char) * (len + 1));
