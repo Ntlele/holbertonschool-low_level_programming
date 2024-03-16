@@ -10,11 +10,11 @@
  * Description: this structure stores the details of a dog
  */
 
-struct dog
+typedef struct dog
 {
 	char *name, *owner;
 	float age;
-};
+}dog_t;
 
 /**
  * init_dog - initializes a structure called dog
@@ -35,4 +35,5 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
  */
 
 void print_dog(struct dog *d);
+
 #endif
