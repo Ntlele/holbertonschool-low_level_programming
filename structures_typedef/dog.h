@@ -20,7 +20,7 @@ struct dog
  * init_dog - initializes a structure called dog
  * @d: pointer to the structure
  * @name: stores array as name of dog
- * @float: stores float numeral as age  of dog
+ * @age: stores float numeral as age  of dog
  * @owner: stores array of the name of dog owner
  * return: void
  *
