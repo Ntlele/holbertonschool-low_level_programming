@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 
 	if (func == NULL)
 	{
-		PRINTF("Error\n");
+		printf("Error\n");
 		exit(99);
 	}
 	if ((*argv[2] == '/' || *argv[2] == '%') && atoi(argv[3]) == 0)
