@@ -2,12 +2,11 @@
 #include <stdlib.h>
 
 /**
- * int_index - function that searches for integer
- * @size: size of the array
- * @cmp: pointer to function of int type
- *
- * return: index of first element, otherwise -1
- * description: returns the index of the first array element
+ * int_index - check if a number is equal to 98
+ * @array: the integer to check
+ * @size: size
+ * @cmp: cmp
+ * Return: 0 if false, something else otherwise.
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
