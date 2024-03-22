@@ -1,19 +1,39 @@
-#include "3-calc.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "3-calc.h"
+#include "function_pointers.h"
 
 /**
- *
+ * main - entry point
+ * @argv: argv
+ * @argc: argc
+ * return: pointer
  */
 
 int main(int argc, char *argv[])
 {
-	int i = 0, *operator;
-	char op;
+	int result;
+	int (*func)(int,int);
 
-	for (; i < argc, i++)
+	if (argc != 4)
 	{
-		argv[i];
+		printf("Error\n");
+		exit(98);
 	}
-	
+
+	func = get_op_func(argv[2]);
+
+	if (func == NULL)
+	{
+		PRINTF("Error\n");
+		exit(99);
+	}
+	if ((*argv[2] == '/' || *argv[2] == '%') && atoi(argv[3]) == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+	result = func(atoi(argv[1]), atoi(argv[3]));
+	printf("%d\n", result);
+	return (0);
 }

@@ -1,43 +1,23 @@
-#ifndef CALC_H
-#define CALC_H
-
+#ifndef 3-CALC_H
+#define 3-CALC_H
 /**
- * op_add - sum of two integers
- * @a: first int variable
- * @b:second int variable
- * returns: sum of two numbers
+ * struct op - Struct op
+ *
+ * @op: The operator
+ * @f: The function associated
  */
+typedef struct op
+{
+	char *op;
+	int (*f)(int a, int b);
+} op_t;
+
 int op_add(int a, int b);
-
-/**
- * op_sub - difference of two integers
- * @a: first int variable
- * @b: second int variable
- * returns: difference of two numbers
- */
 int op_sub(int a, int b);
-
-/**
- * op_mul - product of two integers
- * @a: first int variable
- * @b: second int variable
- * returns: product of two numbers
- */
 int op_mul(int a, int b);
-
-/**
- * op_add - dividend of two integers
- * @a: first int variable
- * @b: second int variable
- * returns: dividend of two numbers
- */
 int op_div(int a, int b);
-
-/**
- * op_add - division remainder of two integers
- * @a: first int variable
- * @b: second int variable
- * returns: division remainder of two numbers
- */
 int op_mod(int a, int b);
+
+int (*get_op_func(char *s))(int, int);
+
 #endif
