@@ -17,4 +17,14 @@ int sum_them_all(const unsigned int n, ...);
  * return: void
  */
 void print_numbers(const char *separator, const unsigned int n, ...);
+
+/**
+ * print_strings - print arguments as strings
+ * @separator: string bettween strings
+ * @n: number of strings to print
+ *
+ * return: void
+ */
+
+void print_strings(const char *separator, const unsigned int n, ...);
 #endif
