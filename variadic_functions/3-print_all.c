@@ -38,7 +38,7 @@ void print_char(va_list args)
 
 void print_float(va_list args)
 {
-	float f = (args, double);
+	float f = va_arg(args, double);
 
 	printf("%f", f);
 }
@@ -54,7 +54,7 @@ void print_string(va_list args)
 {
 	char *s = va_arg(args, int);
 
-	if (*s == NULL)
+	if (s == NULL)
 		printf("(nil)");
 
 	printf("%s", s);
