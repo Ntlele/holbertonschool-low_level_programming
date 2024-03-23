@@ -17,7 +17,7 @@ void print_int(va_list args)
 
 /**
  * print_char - prints all charactor arguments
- * @args: list of arguments
+ * @args: list of all rguments
  *
  * return: void
  */
