@@ -44,14 +44,14 @@ void print_all(const char * const format, ...);
  * @func_printer: a pointer prints data type according to symbol
  */
 
-/**
- * print_func - gets functuions
- * @args: list
- *
- * return: void
- */
 typedef struct print
 {
+	/**
+	 * print_func - gets functuions
+	 * @args: list
+	 *
+	 * return: void
+	 */
 	char *symbol;
 	void (*print_func)(va_list args);
 } func_printer;
