@@ -73,10 +73,10 @@ void print_all(const char * const format, ...)
 	char *separator = "";
 	func_printer func[] =
 	{
-		{c, print_char},
-		{i, print_int},
-		{f, print_float},
-		{*s, print_string}
+		{"c", print_char},
+		{"i", print_int},
+		{"f", print_float},
+		{"s", print_string}
 	};
 
 	va_start(ap, format);
