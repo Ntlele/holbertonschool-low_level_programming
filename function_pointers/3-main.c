@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
 	func = get_op_func(argv[2]);
 
-	if (func != '+' && func != '-' && func != '*' && func != '/' && func != '%')
+	if (argv[2] != '+' && argv[2] != '-' && argv[2] != '*' && argv[2] != '/' && argv[2] != '%')
 	{
 		printf("Error\n");
 		exit(99);
