@@ -14,7 +14,7 @@ typedef struct dog
 {
 	char *name, *owner;
 	float age;
-};
+}
 
 /**
  * init_dog - initializes a structure called dog
