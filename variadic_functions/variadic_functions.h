@@ -27,4 +27,24 @@ void print_numbers(const char *separator, const unsigned int n, ...);
  */
 
 void print_strings(const char *separator, const unsigned int n, ...);
+
+/**
+ * print_all - prints arguments of all types
+ * @format: data type
+ *
+ * return: void
+ */
+void print_all(const char * const format, ...);
+
+/**
+ * struct print - A structure that defines our print type
+ *
+ * @symbol: a symbol representing the data type
+ * @func_printer: a pointer prints data type according to symbol
+ */
+typedef struct print
+{
+	char *symbol;
+	void (*print_func)(va_list args);
+} func_printer;
 #endif
