@@ -73,8 +73,8 @@ void print_all(const char * const format, ...)
 	char *separator = "";
 	func_printer func[] =
 	{
-		{"c", print_char},
 		{"i", print_int},
+		{"c", print_char},
 		{"f", print_float},
 		{"s", print_string}
 	};
@@ -83,6 +83,7 @@ void print_all(const char * const format, ...)
 
 	while (format && format[i])
 	{
+		j = 0;
 		while(j < 4 && (format[i] != *(func[j].symbol)))
 			j++;
 		if (j < 4)
