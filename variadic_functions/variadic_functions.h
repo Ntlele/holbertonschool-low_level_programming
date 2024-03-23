@@ -47,5 +47,5 @@ typedef struct print
 {
 	char *symbol;
 	void (*print_func)(va_list args);
-} func_printer;
+}func_printer;
 #endif
