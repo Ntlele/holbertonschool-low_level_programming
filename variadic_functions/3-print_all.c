@@ -83,12 +83,12 @@ void print_all(const char * const format, ...)
 
 	while (format && format[i])
 	{
-		while(j < 4 && (format[i] != *(funcs[j].symbol)))
+		while(j < 4 && (format[i] != *(func[j].symbol)))
 			j++;
 		if (j < 4)
 		{
 			printf("%s", separator);
-			funcs[j].print_func(ap);
+			func[j].print_func(ap);
 			separator = ", ";
 		}
 		i++;
