@@ -5,7 +5,7 @@
  * sum_them_all - returns sum of all parameters
  * @n: constant integer
  *
- * return: sum of all parameters
+ * return: sum
  * description: returns the sum
  */
 
