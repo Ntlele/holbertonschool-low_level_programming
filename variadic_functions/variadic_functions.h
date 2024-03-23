@@ -1,3 +1,4 @@
+#include <stdarg.h>
 #ifndef VAR_FUNC_H
 #define VAR_FUNC_H
 /**
