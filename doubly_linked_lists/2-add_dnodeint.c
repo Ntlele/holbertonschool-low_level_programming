@@ -8,7 +8,7 @@
  * @n: intrger value
  * Return: new node
  */
-dlistint_t *add_dnodeint(dlistit_t **head, const int n)
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *new_node = malloc(sizeof(dlistint_t));
 
