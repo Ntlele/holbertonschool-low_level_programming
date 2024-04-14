@@ -1,5 +1,7 @@
 #include "main.h"
 #include <stddef.h>
+#include <stdio.h>
+#include <sys/types.h>
 #include <unistd.h>
 
 /**
