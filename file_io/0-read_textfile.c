@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+#include <unistd.h>
 
 /**
  * read_textfile - reads file content
