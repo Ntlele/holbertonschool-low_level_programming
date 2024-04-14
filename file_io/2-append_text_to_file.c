@@ -16,15 +16,15 @@ int append_text_to_file(const char *filename, char *text_content)
 		return (-1);
 
 	fd = open(filename, O_WRONLY | O_APPEND);
-	if (fd == NULL)
+	if (fd == -1)
 		return (-1);
 
 	if (text_content !=NULL)
 	{
 		while (text_content[count_c])
-			count_c;
+			count_c++;
 
-		wrt = write(fd, textcontent, count_c);
+		wrt = write(fd, text_content, count_c);
 		if (wrt == -1)
 			return(-1);
 	}
